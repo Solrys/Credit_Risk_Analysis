@@ -43,11 +43,11 @@ Recall High Risk: 72%
 Recall Low Risk: 63%
 
 ### SMOTE Oversampling
-Accuracy Score: 66.2%
-Precision High Risk: 1%
-Precision Low Risk: 100%
-Recall High Risk: 66%
-Recall Low Risk: 66%
+* Accuracy Score: 66.2%
+* Precision High Risk: 1%
+* Precision Low Risk: 100%
+* Recall High Risk: 66%
+* Recall Low Risk: 66%
 
 ### Cluster Centroid Undersampling
 Accuracy Score: 51.3%
