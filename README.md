@@ -36,6 +36,7 @@ Through each of these methods, I split my data into training and testing dataset
 ## Results
 
 ### Naive Random Oversampling
+![naive](https://github.com/Solrys/Credit_Risk_Analysis/blob/main/visuals/Screen%20Shot%202021-03-21%20at%2011.24.13%20PM.png)
 * Accuracy Score: 67.4%
 * Precision High Risk: 1%
 * Precision Low Risk: 100%
