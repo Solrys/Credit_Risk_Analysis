@@ -85,7 +85,7 @@ Through each of these methods, I split my data into training and testing dataset
 
 
 ### Summary
-After trying the 6 methods mentioned, I analyzed the outcomes to find the best model to accurately detect loan risk. I did this in two parts.
+After trying the 6 methods mentioned, I analyzed the outcomes to find the best model to accurately detect loan risk. I did this in three parts.
 
 1)I looked for a model with the highest sensitivity so that low risk loans would not go undedected. That correlating statistic for this is the recall rate for high risk. 
 
