@@ -88,12 +88,13 @@ Through each of these methods, I split my data into training and testing dataset
 After trying the 6 methods mentioned, I analyzed the outcomes to find the best model to accurately detect loan risk. I did this in two parts.
 
 1)I looked for a model with the highest sensitivity so that low risk loans would not go undedected. That correlating statistic for this is the recall rate for high risk. 
+
 2)Another important statistic is recall rate for low risk as it shows how many high risk loans are flagged as undetected. 
 3)After taking these two statistics over the others, we can look at the accurary score to get a picture of how well the model performs in general. The models with the highest accuracy scores were:
 
-Easy Ensemble Classify (92.3%)
-SMOTEENN Sampling (68.1%)
-Balanced Random Forest Classifying (64.8%)
+* Easy Ensemble Classify (92.3%)
+* SMOTEENN Sampling (68.1%)
+* Balanced Random Forest Classifying (64.8%)
 
 The most potentially fincially damaging aspect of approving a loan is aproving loans with high risk. If a client defaults on a loan there is ummediate loss in revenue. Therefor the model with the highest accuracy for high risk loans would be my suggestion for a more succesful outcome. 
 After factoring in these three main statistics, the model that I recommend for predicting high risk loans is the Easy Ensemble Classifying model.
