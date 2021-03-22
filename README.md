@@ -60,6 +60,7 @@ Through each of these methods, I split my data into training and testing dataset
 * Recall Low Risk: 42%
 
 ### SMOTEENN Sampling
+![smoteen](https://github.com/Solrys/Credit_Risk_Analysis/blob/main/visuals/Screen%20Shot%202021-03-22%20at%2012.07.46%20AM.png)
 * Accuracy Score: 68.1%
 * Precision High Risk: 1%
 * Precision Low Risk: 100%
