@@ -33,5 +33,68 @@ The purpose of this analysis was to create a supervised machine learning model t
 6. Easy Ensemble Classifying
 Through each of these methods, I split my data into training and testing datasets, and compiled accuracy scores, confusion matries, and classification reports as my results.
 
-(enamble)This model outperformed the platform from which to continue to be approved. We have the leading balanced accuracy that we have encountered. Along with high-risk precision, recall and, therefore F1 score. This model is furhter efficient than the others. My recommendation is looking beneath into the data set at the fasle positives and false negatives. My guess there is a factor here that is being given more weight or not enough that could be used to train the model to improve the output.
+## Results
+
+### Naive Random Oversampling
+Accuracy Score: 67.4%
+Precision High Risk: 1%
+Precision Low Risk: 100%
+Recall High Risk: 72%
+Recall Low Risk: 63%
+
+### SMOTE Oversampling
+Accuracy Score: 66.2%
+Precision High Risk: 1%
+Precision Low Risk: 100%
+Recall High Risk: 66%
+Recall Low Risk: 66%
+
+### Cluster Centroid Undersampling
+Accuracy Score: 51.3%
+Precision High Risk: 0%
+Precision Low Risk: 100%
+Recall High Risk: 61%
+Recall Low Risk: 42%
+
+### SMOTEENN Sampling
+Accuracy Score: 68.1%
+Precision High Risk: 1%
+Precision Low Risk: 100%
+Recall High Risk: 76%
+Recall Low Risk: 60%
+
+### Balanced Random Forest Classifying
+Accuracy Score: 64.8%
+Precision High Risk: 56%
+Precision Low Risk: 100%
+Recall High Risk: 30%
+Recall Low Risk: 100%
+
+### Easy Ensemble Classifying
+Accuracy Score: 92.3%
+Precision High Risk: 6%
+Precision Low Risk: 100%
+Recall High Risk: 91%
+Recall Low Risk: 94%
+
+rewrite.. 
+Summary
+This analysis is trying to find the best model that can detect if a loan is high risk or not. Becasue of that, we need to find a model that lets the least amount of high risk loans pass through undetected. That correlating statistic for this is the recall rate for high risk. Looking through the different models, the ones that scored the highest were:
+
+Easy Ensemble Classifying (91%)
+SMOTEENN Sampling (76%)
+Naive Random Oversampling (72%)
+While this is the most important statistic that is pulled from this analysis, another important statistic is recall rate for low risk as it shows how many low risk loans are flagged as high risk. Looking through the different models, the ones that scored the highest were:
+
+Balanced Random Forest Classifying (100%)
+Easy Ensemble Classifying (94%)
+After taking these two statistics over the others, we can look at the accurary score to get a picture of how well the model performs in general. The models with the highest accuracy scores were:
+
+Easy Ensemble Classify (92.3%)
+SMOTEENN Sampling (68.1%)
+Balanced Random Forest Classifying (64.8%)
+After factoring in these three main statistics, the model that I would recommend to use for predicting high risk loans is the Easy Ensemble Classifying model.
+
+
+
 
