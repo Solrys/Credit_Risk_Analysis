@@ -90,6 +90,7 @@ After trying the 6 methods mentioned, I analyzed the outcomes to find the best m
 1)I looked for a model with the highest sensitivity so that low risk loans would not go undedected. That correlating statistic for this is the recall rate for high risk. 
 
 2)Another important statistic is recall rate for low risk as it shows how many high risk loans are flagged as undetected. 
+
 3)After taking these two statistics over the others, we can look at the accurary score to get a picture of how well the model performs in general. The models with the highest accuracy scores were:
 
 * Easy Ensemble Classify (92.3%)
