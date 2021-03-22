@@ -97,7 +97,7 @@ After trying the 6 methods mentioned, I analyzed the outcomes to find the best m
 * SMOTEENN Sampling (68.1%)
 * Balanced Random Forest Classifying (64.8%)
 
-The most potentially fincially damaging aspect of approving a loan is aproving loans with high risk. If a client defaults on a loan there is ummediate loss in revenue. Therefor the model with the highest accuracy for high risk loans would be my suggestion for a more succesful outcome. 
+The most potentially fincially damaging aspect of approving a loan is aproving loans with high risk. If a client defaults on a loan there is loss in revenue. Therefor the model with the highest accuracy for high risk loans would be my suggestion for a more succesful outcome. 
 After factoring in these three main statistics, the model that I recommend for predicting high risk loans is the Easy Ensemble Classifying model.
 It is a well balanced model with the strongest accuracy (92.3%). 
 
