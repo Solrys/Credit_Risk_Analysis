@@ -52,6 +52,7 @@ Through each of these methods, I split my data into training and testing dataset
 * Recall Low Risk: 66%
 
 ### Cluster Centroid Undersampling
+![under](https://github.com/Solrys/Credit_Risk_Analysis/blob/main/visuals/Screen%20Shot%202021-03-22%20at%2012.05.56%20AM.png)
 * Accuracy Score: 51.3%
 * Precision High Risk: 0%
 * Precision Low Risk: 100%
