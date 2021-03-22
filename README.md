@@ -44,6 +44,7 @@ Through each of these methods, I split my data into training and testing dataset
 * Recall Low Risk: 63%
 
 ### SMOTE Oversampling
+![oversampling](https://github.com/Solrys/Credit_Risk_Analysis/blob/main/visuals/Screen%20Shot%202021-03-22%20at%2012.03.43%20AM.png)
 * Accuracy Score: 66.2%
 * Precision High Risk: 1%
 * Precision Low Risk: 100%
