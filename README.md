@@ -76,7 +76,7 @@ Through each of these methods, I split my data into training and testing dataset
 * Recall Low Risk: 100%
 
 ### Easy Ensemble Classifying
-![ensemble](https://github.com/Solrys/Credit_Risk_Analysis/blob/main/visuals/Screen%20Shot%202021-03-21%20at%2011.22.20%20PM.png)
+![ensemble](https://github.com/Solrys/Credit_Risk_Analysis/blob/main/visuals/Screen%20Shot%202021-03-22%20at%201.17.20%20AM.png)
 * Accuracy Score: 92.3%
 * Precision High Risk: 6%
 * Precision Low Risk: 100%
